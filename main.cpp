@@ -13,11 +13,10 @@ int main(){
   float rettangolo = a*b;
   float trapezio = ((a+b)*c)/2;
   
-  cout << "L'area di triangolo, quadrato, rettangolo e trapezio e' rispettivamente: \n";
-  cout << "Triangolo con 'a' base e 'b' altezza = "<< triangolo <<endl;
-  cout << "Quadrato con lato 'a' = "<< quadrato <<endl;
-  cout << "Rettangolo con 'a' e 'b' rispettivamente lati = "<< rettangolo <<endl;
-  cout << "Trapezio con 'a' e 'b' basi e 'c' altezza = "<< trapezio;
+  cout << triangolo <<endl;
+  cout << quadrato <<endl;
+  cout << rettangolo <<endl;
+  cout << trapezio;
 
   return 0;
 }
